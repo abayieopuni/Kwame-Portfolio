@@ -24,12 +24,60 @@ const about = {
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
+const skillsBar = [
+  {
+    name: "HTML5",
+    // To add a custom svg instead of font-awesome icons, add svg path below otherwise just comment it out
+    faClass: "fab fa-html5",
+  },
+  {
+    name: "CSS3",
+    // svg: '',
+    faClass: "fab fa-css3",
+  },
+  {
+    name: "Javascript",
+    // svg: '',
+    faClass: "fab fa-js",
+  },
+  {
+    name: "SASS",
+    // svg: '',
+    faClass: "fab fa-sass",
+  },
+  {
+    name: "Node",
+    // svg: '',
+    faClass: "fab fa-node",
+  },
+  {
+    name: "Python",
+    // svg: '',
+    faClass: "fab fa-python",
+  },
+  {
+    name: "PHP",
+    // svg: '',
+    faClass: "fab fa-php",
+  },
+  {
+    name: "Database",
+    // svg: '',
+    faClass: "fas fa-database",
+  },
+  {
+    name: "AWS",
+    // svg: '',
+    faClass: "fab fa-aws",
+  },
+];
 
 export {
   animation,
   header,
   background,
   about,
-  section2title
+  section2title,
+  skillsBar
  
 };

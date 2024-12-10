@@ -18,7 +18,7 @@ const Particle = () => {
     () => ({
       background: {
         color: {
-          value: "#0d47a1", // Background color
+          value: "#a45c40", // Background color
         },
       },
       fpsLimit: 120,
@@ -94,7 +94,7 @@ const Particle = () => {
       <div className="relative min-h-screen">
         <div
           id="tsparticles"
-          className="absolute inset-0 z-0 "
+          className=""
             >
           <Particles
             id="tsparticles-canvas"

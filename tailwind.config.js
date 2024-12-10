@@ -14,8 +14,11 @@ export default {
         400: "400ms", // Custom duration for smoother transitions
       },
       colors: {
-        primary: "var(--primary-color)", // Custom primary color
-      },
+        cream: '#f6eee0',
+        peach: '#e4b7a0',
+        desertSun: '#a45c40',
+        coral: '#f79489',
+      }
     },
   },
   plugins: [

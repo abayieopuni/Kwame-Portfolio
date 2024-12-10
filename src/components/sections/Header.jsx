@@ -45,9 +45,9 @@ const Header = () => {
             className="hidden"
           />
           <span className="slider relative cursor-pointer w-12 h-6 bg-white transition-all duration-400 rounded-full">
-            <span className="absolute left-1 top-1 w-4 h-4 bg-blue-700 rounded-full transition-transform transform checked:left-7"></span>
+            <span className="absolute left-1 top-1 w-4 h-4 bg-desertSun rounded-full transition-transform transform checked:left-7"></span>
           </span>
-          <span className="text-sm">Toggle Dark Mode</span>
+          <span className="text-sm"></span>
         </label>
 
         <HeaderButton/>
