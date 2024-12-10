@@ -91,7 +91,7 @@ const Particle = () => {
 
   if (init) {
     return (
-      <div className="relative min-h-screen">
+      <div className="relative ">
         <div
           id="tsparticles"
           className=""

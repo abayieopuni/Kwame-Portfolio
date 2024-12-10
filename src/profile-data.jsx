@@ -20,7 +20,7 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "I am a junior web-developer and I am currectly working on small projects as a freelanced developer. I obtained my certificate for web and software development from the University of Toronto School of Continuing Studies and I specialize in front-end development. Prior to changing my career path to software and web development, I obtained my Honors Bachelor of Science degree from the University of Toronto and completed a double major in human biology and neuroscience. I am still an active researcher for mental health and neuroscience.",
+    "A detail-oriented computer science graduate with experience in full-stack software development, technical support, and system analysis known for troubleshooting complex technical issues and delivering high-level customer service. Skilled in system administration, and networking, with a strong foundation in computer science. Seeking a dynamic tech role to leverage and expand these skills. Open to certifications as needed..",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
