@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import Particles from "./components/layouts/Particles";
 import Header from "./components/sections/Header";
 import About from "./components/sections/About";
+import Contact from "./components/sections/Contact";
+
 
 
 const App = () => {
@@ -9,11 +11,10 @@ const App = () => {
     <div >
       <Header/>
       {/* Particle Background */}
-      <Particles/>
+      <Particles/>    
       <About/>
-   
-
-      
+      <Contact/>
+     
     </div>
   );
 };

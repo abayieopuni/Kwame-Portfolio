@@ -72,12 +72,22 @@ const skillsBar = [
   },
 ];
 
+const section5title = "Get in Touch";
+const contact = {
+  pitch:
+    "Feel free to contact me. I am open to collaborate with other developers on various projects I am planning to launch in the near future.",
+  copyright: "Amna Syeda",
+  contactUrl: "",
+};
+
 export {
   animation,
   header,
   background,
   about,
+  contact,
   section2title,
+  section5title,
   skillsBar
  
 };
