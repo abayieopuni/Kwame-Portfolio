@@ -138,11 +138,11 @@ const contact = {
 };
 
 const social = {
-  github: "https://github.com/amnasyeda",
+  github: "https://github.com/abayieopuni",
   //facebook: "https://facebook.com",
   // twitter: "https://twitter.com",
-  instagram: "https://instagram.com/amna.s_",
-  linkedin: "https://www.linkedin.com/in/amna-syeda-064191146",
+  instagram: "https://github.com/abayieopuni",
+  linkedin: "https://www.linkedin.com/in/abayie-opuni/",
   resume: "",
 };
 
