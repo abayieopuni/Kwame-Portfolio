@@ -12,14 +12,14 @@ const Contact = () => {
           <div className="container mx-auto px-4 bg-coral">
             <div className="git-cont inline-block">
               <div className="w-full  px-4">
-                <form action={contact.contactUrl ? contact.contactUrl : "mailto:amna.syeda98@gmail.com"} method={contact.contactUrl ? "POST" : "GET"} className="space-y-4 py-12 px-4">
+                <form action={contact.contactUrl ? contact.contactUrl : "mailto:abayieopuni1@gmail.com"} method={contact.contactUrl ? "POST" : "GET"} className="space-y-4 py-12 px-4">
                   <input
                     type="text"
                     id="fname"
                     name="firstname"
                     placeholder="Your Name"
                     required
-                    className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                    className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-desertSun focus:outline-none"
                   />
                   <input
                     type="email"
@@ -27,7 +27,7 @@ const Contact = () => {
                     name="Email"
                     placeholder="Email Address"
                     required
-                    className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                    className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-desertSun focus:outline-none"
                   />
                   <input
                     type="text"
@@ -35,18 +35,18 @@ const Contact = () => {
                     name="Subject"
                     placeholder="Subject"
                     required
-                    className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                    className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-desertSun focus:outline-none"
                   />
                   <textarea
                     id="msg"
                     name="message"
                     placeholder="Message"
                     required
-                    className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                    className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-desertSun focus:outline-none"
                   ></textarea>
                   <button
                     type="submit"
-                    className="w-full py-3 text-coral text bg-cream rounded-full mt-5 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full py-3 text-coral text bg-cream rounded-full mt-5 hover:bg-desertSun focus:outline-none focus:ring-2 focus:ring-red-400"
                   >
                     Send Message
                   </button>
