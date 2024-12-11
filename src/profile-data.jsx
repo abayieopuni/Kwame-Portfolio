@@ -56,6 +56,11 @@ const skillsBar = [
     faClass: "fab fa-python",
   },
   {
+    name: "React",
+    // svg: '',
+    faClass: "fab fa-react",
+  },
+  {
     name: "PHP",
     // svg: '',
     faClass: "fab fa-php",
@@ -72,12 +77,73 @@ const skillsBar = [
   },
 ];
 
+const section3Title = "Past Projects";
+const projects = [
+  {
+    // Add image in './styles/images.css' in #project1
+    id: "project1",
+    img:"./shelterhome.png",
+    name: "Vintage Vinyl Records - An E-commerce Application",
+    skills: ["HTML, CSS, Javascript"],
+    url: "https://github.com/group01-project03/vintage-vinyl-records",
+  },
+  {
+    // Add image in './styles/images.css' in #project2
+    id: "project2",
+    img:"./church.png",
+    name: "Book Search Engine",
+    skills: ["MERN Stack, React, Node.js, MongoDB, Express"],
+    url: "https://github.com/amnasyeda/book-search-engine",
+  },
+  {
+    // Add image in './styles/images.css' in #project3
+    id: "project3",
+    img:"./weather.png",
+    name: "E-Commerce Back End",
+    skills: ["Javascript, Node.js, Sequalize, MySQL, Dotenv"],
+    url: "https://github.com/amnasyeda/ecommerce-back-end",
+  },
+  {
+    // Add image in './styles/images.css' in #project4
+    id: "project4",
+    img:"./wheelream.png",
+    name: "Counting Calories - Calorie Tracker",
+    skills: ["Bulma, JQuery, Moment.js, Javascript"],
+    url: "https://github.com/uot-project-grp/project01-calorie-tracker",
+  },
+  {
+    // Add image in './styles/images.css' in #project5
+    id: "project5",
+    img:"./profile.png",
+    name: "WasteAway - Waste Management",
+    skills: ["jQuery, Dotenv, MySQL and Sequelize ORM, Handlebars.js, Express.js, Node.js"],
+    url: "https://github.com/Group05-Project02/waste-management",
+  },
+  {
+    // Add image in './styles/images.css' in #project6
+    id: "project6",
+    img:"./profile.png",
+    name: "Tech Blog - Blogging Application",
+    skills: ["Sequalize, MySQL2, express-handlebars, connect-session-sequlize, Node.js, bcrypt, Express.js"],
+    url: "https://github.com/amnasyeda/tech-blog",
+  },
+];
+
 const section5title = "Get in Touch";
 const contact = {
   pitch:
     "Feel free to contact me. I am open to collaborate with other developers on various projects I am planning to launch in the near future.",
-  copyright: "Amna Syeda",
+  copyright: "",
   contactUrl: "",
+};
+
+const social = {
+  github: "https://github.com/amnasyeda",
+  //facebook: "https://facebook.com",
+  // twitter: "https://twitter.com",
+  instagram: "https://instagram.com/amna.s_",
+  linkedin: "https://www.linkedin.com/in/amna-syeda-064191146",
+  resume: "",
 };
 
 export {
@@ -88,6 +154,9 @@ export {
   contact,
   section2title,
   section5title,
-  skillsBar
+  skillsBar,
+  social,
+  projects,
+  section3Title
  
 };

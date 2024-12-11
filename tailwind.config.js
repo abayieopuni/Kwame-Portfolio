@@ -18,7 +18,21 @@ export default {
         peach: '#e4b7a0',
         desertSun: '#a45c40',
         coral: '#f79489',
-      }
+      },
+      animation: {
+        typewriter: 'typewriter 4s steps(27) 1s normal both',
+        blinkTextCursor: 'blinkTextCursor 0.5s steps(27) infinite normal',
+      },
+      keyframes: {
+        typewriter: {
+          '0%': { width: '0' },
+          '100%': { width: '100%' },
+        },
+        blinkTextCursor: {
+          '0%': { borderColor: 'transparent' },
+          '100%': { borderColor: '#000' },
+        },
+      },
     },
   },
   plugins: [

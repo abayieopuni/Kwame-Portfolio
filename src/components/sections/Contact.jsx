@@ -3,7 +3,7 @@ import { contact, section5title } from '../../profile-data'
 
 const Contact = () => {
     return (
-        <div className="parallax relative bg-cream  flex flex-col justify-center items-center">
+        <div className="relative bg-cream text-cream p-4 m-3 shadow-inner shadow-[inset_10px_40px_40px_rgba(0,0,0,0.7)] flex flex-col justify-center items-center">
         <div data-aos="zoom-in-up" data-aos-once="true" className="git-form w-full sm:w-[1160px] mx-12 my-12 bg-white max-h-[80vh]">
           <div className="git-head-div pt-5 pb-4  border-b-3 border-black text-center font-medium text-black">
             <h1 id="Contact" className="text-3xl text-desertSun ">{section5title}</h1>

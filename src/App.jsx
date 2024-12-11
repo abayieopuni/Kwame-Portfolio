@@ -3,6 +3,8 @@ import Particles from "./components/layouts/Particles";
 import Header from "./components/sections/Header";
 import About from "./components/sections/About";
 import Contact from "./components/sections/Contact";
+import Footer from "./components/sections/Footer";
+import Projectsec from "./components/sections/ProjectSec";
 
 
 
@@ -13,7 +15,9 @@ const App = () => {
       {/* Particle Background */}
       <Particles/>    
       <About/>
+      <Projectsec/>
       <Contact/>
+      <Footer/>
      
     </div>
   );

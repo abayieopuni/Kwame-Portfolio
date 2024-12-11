@@ -33,8 +33,8 @@ const Header = () => {
   return (
     <div className="h-screen bg-white-500 flex flex-col text-center items-center text-white justify-center relative shadow-lg z-10">
       <div>
-        <h1 className="text-4xl font-bold mb-4">{header.name}</h1>
-        <p className="line-1 anim-typewriter text-xl mb-6">
+        <h1 className="text-7xl font-bold mb-4">{header.name}</h1>
+        <p className="line-1  text-xl mb-6 animate-typewriter ">
           Jr. Full Stack Web Developer
         </p>
         <label className="switch absolute top-4 right-4 flex items-center space-x-2 z-10">
