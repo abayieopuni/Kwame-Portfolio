@@ -20,7 +20,7 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "A detail-oriented computer science graduate with experience in full-stack software development, technical support, and system analysis known for troubleshooting complex technical issues and delivering high-level customer service. Skilled in system administration, and networking, with a strong foundation in computer science. Seeking a dynamic tech role to leverage and expand these skills. Open to certifications as needed..",
+    "As a detail-oriented Computer Science graduate and Junior Front-End Developer transitioning to Full-Stack Development, I bring a strong foundation in software development, technical support, and system analysis. Known for troubleshooting complex technical issues and providing top-notch customer service, I am skilled in system administration, networking, and full-stack development principles. With a passion for learning and growth, I am eager to leverage and expand my skills in a dynamic tech role. I am also open to pursuing additional certifications to further enhance my expertise.",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -83,49 +83,49 @@ const projects = [
     // Add image in './styles/images.css' in #project1
     id: "project1",
     img:"./shelterhome.png",
-    name: "Vintage Vinyl Records - An E-commerce Application",
+    name: "ShelterHome - A Homeless Application",
     skills: ["HTML, CSS, Javascript"],
-    url: "https://github.com/group01-project03/vintage-vinyl-records",
+    url: "https://replit.com/@RemiAbayie/KopuniAdvocacyProject#team.html",
   },
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
     img:"./church.png",
-    name: "Book Search Engine",
-    skills: ["MERN Stack, React, Node.js, MongoDB, Express"],
-    url: "https://github.com/amnasyeda/book-search-engine",
+    name: "Church Website",
+    skills: ["HTML, CSS, Javascript, Node.js, MongoDB, Express"],
+    url: "https://github.com/abayieopuni",
   },
   {
     // Add image in './styles/images.css' in #project3
     id: "project3",
     img:"./weather.png",
-    name: "E-Commerce Back End",
-    skills: ["Javascript, Node.js, Sequalize, MySQL, Dotenv"],
-    url: "https://github.com/amnasyeda/ecommerce-back-end",
+    name: "Weather App - Check weather",
+    skills: ["HTML, CSS, Javascript, Moment.js"],
+    url: "https://github.com/abayieopuni/InteractiveWeatherApp",
   },
   {
     // Add image in './styles/images.css' in #project4
     id: "project4",
     img:"./wheelream.png",
-    name: "Counting Calories - Calorie Tracker",
-    skills: ["Bulma, JQuery, Moment.js, Javascript"],
-    url: "https://github.com/uot-project-grp/project01-calorie-tracker",
+    name: "WheelRealm - Car buying Website",
+    skills: ["HTML, CSS, Javascript, Node.js, MongoDB, Express"],
+    url: "https://github.com/abayieopuni/WheelRealm-website",
   },
   {
     // Add image in './styles/images.css' in #project5
     id: "project5",
     img:"./profile.png",
-    name: "WasteAway - Waste Management",
-    skills: ["jQuery, Dotenv, MySQL and Sequelize ORM, Handlebars.js, Express.js, Node.js"],
-    url: "https://github.com/Group05-Project02/waste-management",
+    name: "Loading .........",
+    skills: ["Loading"],
+    url: "https://github.com/abayieopuni",
   },
   {
     // Add image in './styles/images.css' in #project6
     id: "project6",
     img:"./profile.png",
-    name: "Tech Blog - Blogging Application",
-    skills: ["Sequalize, MySQL2, express-handlebars, connect-session-sequlize, Node.js, bcrypt, Express.js"],
-    url: "https://github.com/amnasyeda/tech-blog",
+    name: "Loading",
+    skills: ["Loading"],
+    url: "https://github.com/abayieopuni",
   },
 ];
 
