@@ -37,6 +37,7 @@ const Header = () => {
         <p className="line-1  text-xl mb-6 animate-typewriter ">
           Jr. Full Stack Web Developer
         </p>
+        {/*
         <label className="switch absolute top-4 right-4 flex items-center space-x-2 z-10">
           <input
             id="mode-switch"
@@ -49,8 +50,12 @@ const Header = () => {
           </span>
           <span className="text-sm"></span>
         </label>
-
+        -->
+         */}
         <HeaderButton/>
+ 
+
+
 
       </div>
       <img
