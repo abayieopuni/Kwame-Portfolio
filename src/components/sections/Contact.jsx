@@ -23,7 +23,7 @@ const Contact = () => {
                                     name="firstname"
                                     placeholder="Your Name"
                                     required
-                                    className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-desertSun focus:outline-none"
+                                    className="w-full p-3 border border-gray-300 rounded-md text-black focus:ring-2 focus:ring-desertSun focus:outline-none"
                                 />
                                 <input
                                     type="email"
@@ -31,7 +31,7 @@ const Contact = () => {
                                     name="Email"
                                     placeholder="Email Address"
                                     required
-                                    className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-desertSun focus:outline-none"
+                                    className="w-full p-3 border border-gray-300 rounded-md  text-black  focus:ring-2 focus:ring-desertSun focus:outline-none"
                                 />
                                 <input
                                     type="text"
@@ -39,18 +39,18 @@ const Contact = () => {
                                     name="Subject"
                                     placeholder="Subject"
                                     required
-                                    className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-desertSun focus:outline-none"
+                                    className="w-full p-3 border border-gray-300 rounded-md   text-black focus:ring-2 focus:ring-desertSun focus:outline-none"
                                 />
                                 <textarea
                                     id="msg"
                                     name="message"
                                     placeholder="Message"
                                     required
-                                    className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-desertSun focus:outline-none"
+                                    className="w-full p-3 border border-gray-300  text-black  rounded-md focus:ring-2 focus:ring-desertSun focus:outline-none"
                                 ></textarea>
                                 <button
                                     type="submit"
-                                    className="w-full py-3 text-coral bg-cream rounded-full mt-5 hover:bg-desertSun focus:outline-none focus:ring-2 focus:ring-red-400"
+                                    className="w-full py-3 text-coral bg-cream rounded-full  mt-5 hover:bg-desertSun focus:outline-none focus:ring-2 focus:ring-red-400"
                                 >
                                     Send Message
                                 </button>
