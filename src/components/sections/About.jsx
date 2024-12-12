@@ -20,7 +20,7 @@ const About = () => {
                         <div className="About-title-box box-border w-[50%] pb-1 border-b-2 border-primary mb-4">
                             <h1 id="About" className="text-cream-600 font-bold">{section2title}</h1>
                         </div>
-                        <p className="font-normal w-[80%] p-[2%] text-lg">{about.paragraph}</p>
+                        <p className="text-sm  md:text-lg">{about.paragraph}</p>
                     </div>
                 </div>
             </div>

@@ -31,7 +31,7 @@ const Header = () => {
 
 
   return (
-    <div className="h-screen bg-white-500 flex flex-col text-center items-center text-white justify-center relative shadow-lg z-10">
+    <div className="h-screen bg-white-500 flex flex-col text-center items-center sm:text text-white justify-center relative shadow-lg z-10">
       <div>
         <h1 className="text-7xl font-bold mb-4">{header.name}</h1>
         <p className="line-1  text-xl mb-6 animate-typewriter ">
@@ -63,7 +63,7 @@ const Header = () => {
         onClick={scrollTo}
         alt="Contact Me"
         title="Contact Me"
-        className=" absolute  cursor-pointer rounded-r-lg w-24 h-24 border-4 top-1 left-2 items-center shadow-inner border-white"
+        className=" absolute  cursor-pointer rounded-r-lg w-14 h-14 border-4 top-1 left-2 items-center sm:rounded-r-sm  shadow-inner border-white"
         src='profile.png'
       />
     </div>
