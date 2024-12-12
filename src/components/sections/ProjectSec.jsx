@@ -8,11 +8,11 @@ const ProjectSec = () => {
             <div data-aos="zoom-in-up" data-aos-once="true" className="third">
                 <div className="pp-head-line mx-auto text-center text-cream mb-10">
                     {/* Heading with Tailwind CSS styling */}
-                    <h1 id="Projects" className="text-3xl font-bold text-cream border-b-4 border-cream pb-2">
+                    <h1 id="Projects" className="text-3xl sm:text-4xl md:text-5xl font-bold text-cream border-b-4 border-cream pb-2">
                         {section3Title}
                     </h1>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 sm:px-8 md:px-12">
                     {/* Project cards */}
                     {projects && projects.map((x) => (
                         <Project 
