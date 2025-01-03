@@ -81,51 +81,51 @@ const section3Title = "Past Projects";
 const projects = [
   {
     // Add image in './styles/images.css' in #project1
-    id: "project1",
-    img:"./shelterhome.png",
-    name: "ShelterHome - A Homeless Application",
-    skills: ["HTML, CSS, Javascript"],
-    url: "https://replit.com/@RemiAbayie/KopuniAdvocacyProject#team.html",
+    id: 'project1',
+    img: './shelterhome.png',
+    name: 'ShelterHome - A Homeless Application',
+    skills: ['HTML, CSS, Javascript'],
+    url: 'https://replit.com/@RemiAbayie/KopuniAdvocacyProject#team.html',
   },
   {
     // Add image in './styles/images.css' in #project2
-    id: "project2",
-    img:"./church.png",
-    name: "Church Website",
-    skills: ["HTML, CSS, Javascript, Node.js, MongoDB, Express"],
-    url: "https://github.com/abayieopuni",
+    id: 'project2',
+    img: './church.png',
+    name: 'Church Website',
+    skills: ['HTML, CSS, Javascript, Node.js, MongoDB, Express'],
+    url: 'https://github.com/abayieopuni',
   },
   {
     // Add image in './styles/images.css' in #project3
-    id: "project3",
-    img:"./weather.png",
-    name: "Weather App - Check weather",
-    skills: ["HTML, CSS, Javascript, Moment.js"],
-    url: "https://github.com/abayieopuni/InteractiveWeatherApp",
+    id: 'project3',
+    img: './weather.png',
+    name: 'Weather App - Check weather',
+    skills: ['HTML, CSS, Javascript, Moment.js'],
+    url: 'https://github.com/abayieopuni/InteractiveWeatherApp',
   },
   {
     // Add image in './styles/images.css' in #project4
-    id: "project4",
-    img:"./wheelream.png",
-    name: "WheelRealm - Car buying Website",
-    skills: ["HTML, CSS, Javascript, Node.js, MongoDB, Express"],
-    url: "https://github.com/abayieopuni/WheelRealm-website",
+    id: 'project4',
+    img: './wheelream.png',
+    name: 'WheelRealm - Car buying Website',
+    skills: ['HTML, CSS, Javascript, Node.js, MongoDB, Express'],
+    url: 'https://github.com/abayieopuni/WheelRealm-website',
   },
   {
     // Add image in './styles/images.css' in #project5
-    id: "project5",
-    img:"./profile.png",
-    name: "Loading .........",
-    skills: ["Loading"],
-    url: "https://github.com/abayieopuni",
+    id: 'project5',
+    img: './trackfir.png',
+    name: 'Trackfit',
+    skills: ['React, CSS,Taiwind CSS, Javascript, Node.js, MongoDB, Express'],
+    url: 'https://github.com/abayieopuni',
   },
   {
     // Add image in './styles/images.css' in #project6
-    id: "project6",
-    img:"./profile.png",
-    name: "Loading",
-    skills: ["Loading"],
-    url: "https://github.com/abayieopuni",
+    id: 'project6',
+    img: './bakedatmars.png',
+    name: 'Baked At Mars',
+    skills: ['React, CSS,Taiwind CSS, Javascript, Node.js, MongoDB, Express'],
+    url: 'https://github.com/abayieopuni',
   },
 ];
 
